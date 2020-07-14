@@ -1,0 +1,76 @@
+main {
+  height: max-content;
+}
+
+hr {
+  position: relative;
+  border: none;
+  height: 2px;
+  background: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  .red-tag-bg {
+    color: white;
+    background: linear-gradient(80deg, #a62219 10%, rgba(0, 255, 243, 0) 0%);
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .red-tag-bg {
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    color: white;
+    background: linear-gradient(80deg, #a62219 10%, rgba(0, 255, 243, 0) 0%);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .red-tag-bg {
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    color: white;
+    background: linear-gradient(80deg, #a62219 12%, rgba(0, 255, 243, 0) 0%);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .red-tag-bg {
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    color: white;
+    background: linear-gradient(80deg, #a62219 20%, rgba(0, 255, 243, 0) 0%);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .red-tag-bg {
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    color: white;
+    background: linear-gradient(80deg, #a62219 35%, rgba(0, 255, 243, 0) 0%);
+  }
+}
+
+svg{
+    height: 100%!important;
+    width: 100%;
+    background-color: gray;
+}
+
