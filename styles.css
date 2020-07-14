@@ -13,6 +13,37 @@ h1 {
   text-align: center;
 }
 
+p{
+    text-align: justify;
+}
+
+.image-inner-caption{
+    position: relative;
+    top: -30vh;
+    color: white;
+    text-align: right;
+    padding: 1%;
+    
+}
+
+.image-inner-caption > div {
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    left: 90vh; */
+    margin-left: 85%;
+}
+
+.image-inner-caption > p {
+    text-align: right;
+}
+
 @media only screen and (min-width: 1200px) {
   h1 {
     font-size: 6rem;
