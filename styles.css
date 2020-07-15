@@ -186,3 +186,24 @@ div > h4 {
   color: crimson;
   text-align: center;
 }
+
+
+.empty-div-img{
+    background-color: #808080;
+    height: 50vh;
+    width: 100%;
+    flex-flow: column wrap;
+}
+
+.rounded-page-25{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+}
+
+.red-font{
+    color:crimson;
+    text-align: center;
+}
