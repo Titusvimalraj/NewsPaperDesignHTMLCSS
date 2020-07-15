@@ -135,3 +135,6 @@ svg{
     background-color: gray;
 }
 
+.padding-none{
+    padding: 0;
+}
