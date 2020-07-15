@@ -142,6 +142,16 @@ p{
     height: 5vh;    
     font-size: .4rem;   
   }
+
+  div > h4 {
+    position: relative;
+    top: -5vh!important;
+}
+
+.child-contents-para{
+    position: relative;
+    top: -5vh!important;
+}
 }
 
 svg{
